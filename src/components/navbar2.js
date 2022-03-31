@@ -11,7 +11,7 @@ function Navbar2() {
               <Navbar.Brand href='#home'>lilf4p</Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="#code">Coding</Nav.Link>
-                <Nav.Link href="#study">Study</Nav.Link>
+                <Nav.Link href="#study">Studies</Nav.Link>
                 <Nav.Link href="#photos">Photos</Nav.Link>
                 <Nav.Link href="#social">Social</Nav.Link>
               </Nav>

@@ -7,6 +7,7 @@ import Coding from './components/coding';
 import Study from './components/study';
 import Photos from './components/photos';
 import axios from 'axios';
+import Social from './components/social';
 
 function App() {
   const repos = () => axios.get('https://api.github.com/users/lilf4p/repos')
@@ -32,6 +33,7 @@ function App() {
           <Photos />
           <Coding />
           <Study />
+          <Social />
       </Container>
 
       <Button 

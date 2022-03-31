@@ -8,33 +8,55 @@ function Photos () {
                 <img
                 className="d-block w-100"
                 src={require("../immagini/Panoramica1.jpg")}
-                alt="First slide"
+                alt="Panoramica1.jpg"
                 />
                 <Carousel.Caption>
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h5>Photos</h5>
+                <p>This are some shot from my trip in Iceland.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src={require("../immagini/ice.jpg")}
-                alt="Second slide"
+                src={require("../immagini/ice.png")}
+                alt="ice.png"
                 />
                 <Carousel.Caption>
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h5>Photos</h5>
+                <p>This are some shot from my trip in Iceland.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src={require("../immagini/roccia.jpg")}
-                alt="Third slide"
+                src={require("../immagini/roccia.png")}
+                alt="roccia.png"
                 />
                 <Carousel.Caption>
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h5>Photos</h5>
+                <p>This are some shot from my trip in Iceland.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={require("../immagini/skogafoss.png")}
+                alt="skogafoss.png"
+                />
+                <Carousel.Caption>
+                <h5>Photos</h5>
+                <p>This are some shot from my trip in Iceland.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={require("../immagini/cascata2.png")}
+                alt="cascata.png"
+                />
+                <Carousel.Caption>
+                <h5>Photos</h5>
+                <p>This are some shot from my trip in Iceland.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

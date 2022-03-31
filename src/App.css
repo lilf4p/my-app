@@ -50,11 +50,40 @@
   color: #282c34;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Accordion-header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(1px + 2vmin);
+  background-color: #282c34;
 }
+
+.Accordion-body {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(1px + 1.5vmin);
+  color: white;
+}
+
+.Social {
+  background-color: #282c34;
+  min-height: 10vh;
+  text-align: center;
+  margin-top: 20px;
+  font-size: x-small;
+  color: white;
+}
+
+.Coding {
+  background-color: #282c34;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-size: medium;
+  color: white;
+}
+
