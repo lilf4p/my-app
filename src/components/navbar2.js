@@ -10,9 +10,10 @@ function Navbar2() {
             <Container fluid>
               <Navbar.Brand href='#home'>lilf4p</Navbar.Brand>
               <Nav className="me-auto">
-                <Nav.Link href="#code">Coding</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>                
+                <Nav.Link href="#code">Projects</Nav.Link>
                 <Nav.Link href="#study">Studies</Nav.Link>
-                <Nav.Link href="#photos">Photos</Nav.Link>
+                {/*<Nav.Link href="#photos">Photos</Nav.Link>*/}
                 <Nav.Link href="#social">Social</Nav.Link>
               </Nav>
           </Container>

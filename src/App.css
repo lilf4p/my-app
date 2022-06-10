@@ -26,7 +26,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(px + 2vmin);
+  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -87,3 +87,76 @@
   color: white;
 }
 
+.About {
+  background-color: #282c34;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.Photos {
+  background-color: #282c34;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-size: medium;
+  color: white;
+}
+
+.hr {
+  clear: both;
+  color: #282c34;
+}
+
+.Waterfall {
+  color: #282c34;
+}
+
+.Avatar {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(255, 207, 178);
+}
+
+.ImageAvatar {
+  margin-left: auto;
+  margin-right: auto;
+  height: 130px;
+  width: 130px;
+}
+
+.Welcome {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.Title {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 48rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.Description {
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 24rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,5 +1,10 @@
 import React, {useState, useEffect} from "react";
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import { Typography } from "@mui/material";
 
 /*
 let get_repos = () => axios.get('https://api.github.com/users/lilf4p/repos')
@@ -21,7 +26,8 @@ function Coding () {
 
     //Stato della lista delle repository
     const [cards, setCards] = useState(null);
-    
+    const [length, setLength] = useState(0);
+
     //Funzione che setta i dati della lista delle repository
     //const setData =  (result) => {
     //    setCards(result);
@@ -48,7 +54,7 @@ function Coding () {
                 //console.log(result);
                 //setData(result);
                 setCards(result);
-                
+                setLength(result.length);
                 
             });
 
@@ -57,23 +63,30 @@ function Coding () {
     console.log(cards);
 
     return (
-        <Container fluid='true' className='Coding'>
-            <h1>Coding</h1>
-            <Row id='code' xs={3} md={3} className="g-5">
-                {Array.from({length: 6}).map((_, idx) => (
+        <Container id='code' className="Coding" >
+            <hr className="hr"/>
+            <h1>Projects</h1>
+            <hr className="hr"/>
+            <Typography align="center" variant="body1" gutterBottom>
+                Here you can find all my projects. I have made a lot of projects, but not all of them are public.
+                They include some University projects, but also some personal. All of them can be found on my github by 
+                clicking on the button below. The list is in continuos update!
+            </Typography>
+            <hr className="hr"/>
+            <Row xs={2} md={4} className="g-5">
+                {Array.from({length: length}).map((_, idx) => (
                     <Col>
-                        <Card text="dark">
-                            <Card.Img variant="top" src={require("../immagini/mrrobot.jpg")} />
+                        <Card style={{ display: 'flex' }} text="light" border="light" bg="dark">
                             <Card.Body>
                                 <Card.Title>
                                     {cards && cards[idx].name}
                                 </Card.Title>
                                 <Card.Text>
-                                    {cards && cards[idx].language}
+                                    Language: {cards && cards[idx].language}
                                 </Card.Text>
                             </Card.Body>
                             <Button size="sm" 
-                                    variant="dark" 
+                                    variant="secondary" 
                                     href= {cards && cards[idx].html_url}                            
                                 >View on Github
                             </Button>

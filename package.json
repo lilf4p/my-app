@@ -4,6 +4,11 @@
   "private": true,
   "homepage": "https://lilf4p.github.io/my-app/",
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/roboto": "^4.5.7",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/material": "^5.8.3",
     "@octokit/core": "^3.6.0",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",

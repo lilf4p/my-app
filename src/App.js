@@ -7,14 +7,15 @@ import Coding from './components/coding';
 import Study from './components/study';
 import Photos from './components/photos';
 import Social from './components/social';
+import About from './components/about';
 
 function App() {
 
   return (
     <>
-      {/* JSX comment*/}     
       <Navbar2 />
-
+      
+      
       <Alert variant="dark">
       <Alert.Heading>Hey, nice to see you!</Alert.Heading>
         <p>
@@ -25,9 +26,11 @@ function App() {
           Hope to see you soon!
         </p>
       </Alert>
+    
 
       <Container fluid='true' className='App-content'>
-          <Photos />
+          {/* <Photos /> */}
+          <About />
           <Coding />
           <Study />
           <Social />
